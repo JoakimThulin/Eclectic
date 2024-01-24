@@ -1,0 +1,61 @@
+body {
+	margin:0;
+	padding:0;
+	}
+
+p {
+	margin:0 0 10px 0;
+	padding:0;
+	}
+	
+h3{
+	font-family:"DejaVu Sans","Bitstream Vera Sans",Arial,sans-serif;
+	}	
+
+form {
+	font:13px "DejaVu Sans","Bitstream Vera Sans",Arial,sans-serif;
+	background:#eee;
+	margin:20px;
+	padding:10px 20px;
+	max-width:340px;
+	}
+
+form ol {
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+
+form li {
+	padding:6px;
+	background:#e1e1e1;
+	margin-bottom:1px;
+	}
+
+form li#send {
+	background:none;
+	margin-top:6px;
+	}
+
+form label {
+	float:left;
+	max-width:80px;
+	text-align:right;
+	margin-right:7px;
+	color:#0066CC;
+	line-height:23px;	 /* This will make the labels vertically centered with the inputs */
+	}
+
+form input,
+form textarea {
+	padding:4px;
+	font:13px "DejaVu Sans","Bitstream Vera Sans",Arial,sans-serif;
+	border:1px solid #999999;
+	max-width:310px;
+	}
+
+form input:focus,
+form textarea:focus {
+	border:1px solid #666;
+	background:#e3f1f1;
+	}

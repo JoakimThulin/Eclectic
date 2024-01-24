@@ -1,0 +1,63 @@
+body{
+	font-family: "DejaVu Sans","Bitstream Vera Sans",Arial,sans-serif;
+}
+
+th{
+	color: #000000;
+	background-color: #e4e4e4;
+	border-bottom: black 1px solid;
+	border-right: black 1px solid;
+}
+
+td{
+	border-bottom: black 1px solid;
+	border-right: black 1px solid;
+}
+
+td.ramc{
+	text-align: center;
+}
+
+td.ram_dbogey{
+	background-color:#ffffcc;
+	text-align: center;
+	width: 20px;
+}
+
+td.ram_bogey{
+	background-color:#87ceeb;
+	text-align: center;
+	width: 20px;
+}
+
+td.ram_par{
+	background-color:#32cd32;
+	text-align: center;
+	width: 20px;
+}
+
+td.ram_birdie{
+	background-color:#ff0000;
+	text-align: center;
+	width: 20px;
+}
+
+td.ram_eagle{
+	background-color:#ffff00;
+	text-align: center;
+	width: 20px;
+}
+
+td.ram_88{
+	background-color:#666666;
+	color: #ffffff;
+	text-align: center;
+	width: 20px;
+}
+
+td.ram_99{
+	background-color:#ffffff;
+	color: #000000;
+	text-align: center;
+	width: 20px;
+}
