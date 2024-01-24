@@ -1,3 +1,3 @@
 # Eclectic
 Webbapp för att administrera en Running Eclectic i golf. Den är skriven för Burviks golfklubb i Uppland, men kan med lätthet anpassas till vilken klubb som helst.
-Databasen är MariaDB med anslutningsuppgiftersåsom angetts i filen base
+Databasen är MariaDB med anslutningsuppgifter såsom angetts i filen base.php.
