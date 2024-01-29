@@ -20,14 +20,14 @@ function leaderboard(){
 <!DOCTYPE html>
 <html lang='sv'>
 <head>
-<title>Burvik Running Eclectic</title>
+<title><?php echo APPTITLE; ?></title>
 <meta charset=utf-8 />
 <meta name='viewport' content='width=device-width, initial-scale=1.0'> 
 <link rel='shortcut icon' href='media/favicon.ico' />
 <link rel='stylesheet' media='screen' type='text/css' href='media/basic.css' />
 </head>
 <body>
-<h3>Burvik Running Eclectic <?php echo $season ?></h3>
+<h3><?php echo APPTITLE; ?> <?php echo $season; ?></h3>
 
 	<?php
 	SetupSeasonSwitch($current_year, $season);
@@ -52,8 +52,8 @@ function leaderboard(){
 
 <hr />
 <p>
-<input type='button' value='Bruksanvisning' onclick='location.href="usage.html";' />
-<input type='button' value='Regler' onclick='location.href="rules.html";' />
+<input type='button' value='Bruksanvisning' onclick='location.href="usage.php";' />
+<input type='button' value='Regler' onclick='location.href="rules.php";' />
 </p>
 
 </body>
@@ -426,7 +426,7 @@ function SetupSeasonSwitch($current_year, $season){
 
 	$winter = IsWinter();
 	if($winter){
-		echo "<p>Tävlingen är stängd, en ny omgång startar förste maj, välkommen tillbaka då. Har du frågor kan du mejla dem till Burvik Running Eclectic på adressen  <a href='mailto:eclectic@thuborg.se?Subject=Fr&aring;ga%20till%20Burvik%20Eclectic'>eclectic@thuborg.se</a></p>\n";
+		echo "<p>Tävlingen är stängd, en ny omgång startar förste maj, välkommen tillbaka då. Har du frågor kan du mejla dem till " . APPTITLE . " på adressen <a href='mailto:" . MAILADDRESS . "?Subject=" . MAILSUBJECT . "'>" . MAILADDRESS . "</a></p>\n";
 	}else{
 		echo "<p><input type='button' value='Tryck här för att mata in resultat och ändra din spelarprofil' onclick='location.href=\"players.php\";' /></p>\n";
 	}

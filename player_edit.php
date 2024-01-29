@@ -28,7 +28,7 @@ function player_edit(){
 <!DOCTYPE html>
 <html lang='sv'>
 <head>
-<title>Redigera spelare i Burvik Running Eclectic</title>
+<title>Redigera spelare i <?php echo APPTITLE; ?></title>
 <meta charset=utf-8 />
 <meta name='viewport' content='width=device-width, initial-scale=1.0'> 
 <link rel='shortcut icon' href='media/favicon.ico' />
@@ -36,7 +36,7 @@ function player_edit(){
 </head>
 <body>
 
-<h3>Redigera spelare i Burvik Running Eclectic</h3>
+<h3>Redigera spelare i <?php echo APPTITLE; ?></h3>
 
 <form action='player_update.php' method='post'>
 <ol>

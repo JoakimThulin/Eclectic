@@ -36,7 +36,7 @@ function list_players(){
 <!DOCTYPE html>
 <html lang='sv'>
 <head>
-<title>Spelare i Burvik Running Eclectic</title>
+<title>Spelare i <?php echo APPTITLE; ?></title>
 <meta charset=utf-8 />
 <meta name='viewport' content='width=device-width, initial-scale=1.0'> 
 <link rel='shortcut icon' href='media/favicon.ico' />
@@ -44,7 +44,7 @@ function list_players(){
 </head>
 <body>
 
-<h3>Spelare i Burvik Running Eclectic</h3>
+<h3>Spelare i <?php echo APPTITLE; ?></h3>
 
 <?php
 
@@ -113,7 +113,7 @@ function list_players(){
 	}
 
 	echo "<li>\n";
-	echo "<input type='button' class='btn' value='Hem' onclick='window.location.href=\"/runningeclectic\";' />\n";
+	echo "<input type='button' class='btn' value='Hem' onclick='window.location.href=\"/<?php echo BASEFOLDER; ?>\";' />\n";
 	echo "</li>\n";
 
 	echo "</ol>\n";

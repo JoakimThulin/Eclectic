@@ -36,7 +36,7 @@ function score_edit(){
 <!DOCTYPE html>
 <html lang='sv'>
 <head>
-<title>Registrera score i Burvik Running Eclectic</title>
+<title>Registrera score i <?php echo APPTITLE; ?></title>
 <meta charset=utf-8 />
 <meta name='viewport' content='width=device-width, initial-scale=1.0'> 
 <link rel='shortcut icon' href='media/favicon.ico' />
@@ -44,7 +44,7 @@ function score_edit(){
 </head>
 <body>
 	
-<h3>Registrera score för <?php echo $playername; ?> i Burvik Running Eclectic</h3>
+<h3>Registrera score för <?php echo $playername; ?> i <?php echo APPTITLE; ?></h3>
 <form action='score_update.php' method='post'>
 <ol>
 	
