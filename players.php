@@ -5,7 +5,7 @@ list_players();
 
 //******************************************************************
 function list_players(){
-//Uppdaterad 2023-05-02 av Joakim [joakim.thulin@outlook.com]
+//Uppdaterad 2024-05-19 av Joakim [joakim.thulin@outlook.com]
 
 	try {
 		$db = new PDO("mysql:host=" . DBSERVER . ";port=3306;dbname=" . DBNAME, DBUSER, DBPW);
