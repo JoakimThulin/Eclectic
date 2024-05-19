@@ -113,7 +113,7 @@ function list_players(){
 	}
 
 	echo "<li>\n";
-	echo "<input type='button' class='btn' value='Hem' onclick='window.location.href=\" . BASEFOLDER . ";' />\n";
+	echo "<input type='button' class='btn' value='Hem' onclick='window.location.href=\"/" . BASEFOLDER . "\";' />\n";
 	echo "</li>\n";
 
 	echo "</ol>\n";
