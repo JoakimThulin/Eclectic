@@ -4,7 +4,7 @@ show_rules();
 
 //******************************************************************
 function show_rules(){
-//Uppdaterad 2024-01-29 av Joakim [joakim.thulin@outlook.com]
+//Uppdaterad 2024-05-19 av Joakim [joakim.thulin@outlook.com]
 ?>
 <!DOCTYPE html>
 <html lang='sv'>
@@ -19,7 +19,6 @@ function show_rules(){
 <body>
 	
 <p><?php echo APPTITLE; ?> löper från första maj fram till och med den sista lördagen i september.</p>
-<p>2023 års säsong inleds med att hål 10 (par 4) ersätts av hål Ö1 (par 3) under den tid som hål 10 inte är spelbar. För att nå rättvisa när väl hål 10 öppnas för spel, skall resultat på hål Ö1 registreras relativt hål 10 par. Det innebär att om spelaren får par på Ö1 skall 4 slag registreras i Eclectic, får spelaren birdie på Ö1 skall 3 slag registreras och så vidare.</p>
 <ul>
     <li>Segrare är spelaren med lägst nettoresultat. Vid lika nettoresultat vinner den med lägst spelhandicap (sHcp), är även detta lika delas segern.</li>
     <li>Tävlingsledaren bestämmer hur prisbordet skall vara utformat, prisbordet skapas utifrån inbetalade spelavgifter.</li>
@@ -39,7 +38,7 @@ function show_rules(){
 </ul>
 
 <hr />
-<address>Senast uppdaterad 2023-06-19 av <a href="mailto:<?php echo MAILADDRESS; ?>?Subject=<?php echo MAILSUBJECT; ?>"><?php echo MAILADDRESS; ?></a></address>
+<address>Senast uppdaterad 2024-05-19 av <a href="mailto:<?php echo MAILADDRESS; ?>?Subject=<?php echo MAILSUBJECT; ?>"><?php echo MAILADDRESS; ?></a></address>
 
 <p>
     <input type='button' value='Bruksanvisning' onclick='location.href="usage.php";' />
